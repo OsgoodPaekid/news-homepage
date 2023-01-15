@@ -12,12 +12,12 @@ body{
       padding: 50px 200px;
     }
 
-/* nav{
+nav{
     display: flex;
-} */
+} 
 
 .logo-img{
-    margin-right: 40em;
+    width: 60%;
 }
 
 section{
@@ -86,9 +86,61 @@ h5{
 
 .item2{
     grid-area: b;
+    background-color: hsl(240, 100%, 5%);
 }
 
 .menu{
     display: flex;
-    width: 40%;
+   
 }
+
+.menu div{
+    width: 20%;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+.item2 > h1{
+    color: hsl(35, 77%, 62%);
+}
+
+.item2 > h3{
+    color: #fff;
+}
+
+
+.first, .second{
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.first h3{
+    color: #fff;
+}
+
+.first p{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.second h3{
+    color: #fff;
+}
+.second p{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.third h3{
+    color: #fff;
+}
+
+.third p{
+    color: #fff;
+    opacity: 0.7;
+}
+
+.first, .second, .third{
+    margin: 10px 0;
+    padding: 10px 10px;
+  }
