@@ -1,27 +1,39 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 16px;
+    margin: 8px;
 }
 
-nav{
+body{
+      margin: auto;
+      padding: 50px 200px;
+    }
+
+/* nav{
     display: flex;
-    
-}
+} */
 
 .logo-img{
     margin-right: 40em;
 }
 
 section{
+    padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     'a a b'
     'c d b'
     ;
+    gap: 20px;
 }
+
+.item1{
+    grid-area: a;
+}
+
 
 button{
     background-color: rgba(240, 8, 8, 0.87);
@@ -31,13 +43,10 @@ button{
 }
 
 .web3-img{
-    height: 250px;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
-.item1{
-    grid-area: 'a';
-}
 
 main{
     display: flex;
@@ -66,4 +75,20 @@ h5{
 
 .opq{
     opacity: 0.7;
+}
+
+.item3{
+    grid-area: b;
+    background-color:  hsl(240, 100%, 5%);
+    color: #fff;
+}
+
+
+.item2{
+    grid-area: b;
+}
+
+.menu{
+    display: flex;
+    width: 40%;
 }
