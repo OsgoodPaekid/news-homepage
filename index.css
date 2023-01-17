@@ -144,3 +144,42 @@ h5{
     margin: 10px 0;
     padding: 10px 10px;
   }
+
+  @media screen and (max-width: 600px){
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .show-icon-menu{
+        height: 1rem;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 8rem;
+        margin-bottom: 20rem;
+    }
+  }
+
+  /* hide the links on the nav bar */
+  .hide-links{
+    height: 0;
+    overflow: hidden;
+  }
+ 
+
+.menu{
+    height: 10rem;
+}
+
+.icon-menu{
+    height: 0;
+    overflow: hidden;
+}
